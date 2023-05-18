@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView txtBluetooth;
     private Button btnBluetooth;
     BluetoothAdapter bluetoothAdapter;
-
+    private static String TAG = "bluetooth";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
